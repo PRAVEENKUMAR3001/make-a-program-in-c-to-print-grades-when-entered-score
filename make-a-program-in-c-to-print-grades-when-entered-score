@@ -1,0 +1,35 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int m;
+  cin>>m;
+  if(m>59 && m<64){
+    cout<<endl<<"your grade is D";
+  }
+  else if(m>64 && m<69){
+    cout<<endl<<"your grade is D+";
+  }
+  else if(m>69 && m<74){
+    cout<<endl<<"your grade is C";
+  }
+  else if(m>74 && m<79){
+    cout<<endl<<"your grade is C+";
+  }
+  else if(m>79 && m<84){
+    cout<<endl<<"your grade is B";
+  }
+  else if(m>84 && m<89){
+    cout<<endl<<"your grade is B+";
+  }else if(m>89 && m<94){
+    cout<<endl<<"your grade is A";
+  }else if(m>94 && m<=100){
+    cout<<endl<<"your grade is A+";
+  }
+  else{
+    cout<<endl<<"you have failed the exam and grade is F";
+  }
+  return 0;
+}
