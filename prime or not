@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int m;
+  cin>>m;
+  if(m%1==0 && m%m==0 && m%2!=0 && m%3!=0 && m%5!=0 && m%7!=0 && m%9!=0){
+      cout<<endl<<"prime number";
+  }
+  else if(m==1){
+      cout<<endl<<"prime number";
+  }
+  else if(m==2){
+      cout<<endl<<"prime number";
+  }
+  else if(m==3){
+      cout<<endl<<"prime number";
+  }
+  else if(m==5){
+      cout<<endl<<"prime number";
+  }else if(m==7){
+      cout<<endl<<"prime number";
+  }
+  else{
+      cout<<endl<<"not a prime number";
+  }
+  return 0;
+}
